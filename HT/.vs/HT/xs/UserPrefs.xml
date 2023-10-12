@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.Tymakov PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Tymakov/Program.cs">
     <Files>
-      <File FileName="Tymakov/Program.cs" Line="264" Column="42" />
+      <File FileName="Program.cs" Line="9" Column="13" />
+      <File FileName="Tymakov/Program.cs" Line="433" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

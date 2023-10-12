@@ -1,0 +1,1 @@
+/home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/obj/x86/Release/HT.csproj.CoreCompileInputs.cache
