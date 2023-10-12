@@ -131,6 +131,45 @@ namespace HT
             }
         }
 
+        static public bool DeepFirstSearch(Node start, int search, out Node result)
+        {
+            Stack<Node> stack = new Stack<Node>();
+            stack.Push(start);
+            while (stack.Count != 0)
+            {
+                Node current = stack.Pop();
+                if (current.value == search)
+                {
+                    result = current;
+                    return true;
+                }
+
+                foreach (Node node in current.neighbors)
+                {
+                    stack.Push(node);
+                }
+            }
+            result = new Node();
+            return false;
+        }
+
+        public struct Node
+        {
+            public int value { get; set; }
+            public List<Node> neighbors;
+
+            public Node(int value, params Node[] neighbors)
+            {
+                this.value = value;
+                this.neighbors = new List<Node>(neighbors);
+            }
+
+            public string ToString()
+            {
+                return value.ToString();
+            }
+        }
+
         public static void Main(string[] args)
         {
             void Problem1()
@@ -184,7 +223,25 @@ namespace HT
                         default: Console.WriteLine("Неверный ввод"); break;
                     }
                 }
-                
+            }
+
+            void Problem4()
+            {
+                Message("do deep-first search of the graph", 4);
+                Node a = new Node(1);
+                Node b = new Node(2, a);
+                Node c = new Node(3, b, a);
+                Node d = new Node(4, b, c);
+                Node e = new Node(5, a);
+                Node f = new Node(6, e);
+                List<Node> nodes = new List<Node>
+                {
+                    a, b, c, d, e, f
+                };
+                DeepFirstSearch(a, 6, out Node g);
+                Console.WriteLine(g.value);
+                DeepFirstSearch(a, 100, out g);
+                Console.WriteLine(g.value);
             }
 
             bool run = true;
@@ -199,7 +256,7 @@ namespace HT
                     case "1": Problem1(); break;
                     case "2": Problem2(); break;
                     //case "3": Problem3(); break;
-                    //case "4": Problem4(); break;
+                    case "4": Problem4(); break;
                     case "exit": run = false; break;
                     default: Console.WriteLine("This is not a command or a number of task"); break;
                 }
