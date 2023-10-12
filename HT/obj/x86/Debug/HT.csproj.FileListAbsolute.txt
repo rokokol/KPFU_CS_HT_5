@@ -1,0 +1,6 @@
+/home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/bin/Debug/HT.exe
+/home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/bin/Debug/HT.pdb
+/home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/obj/x86/Debug/HT.csproj.AssemblyReference.cache
+/home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/obj/x86/Debug/HT.csproj.CoreCompileInputs.cache
+/home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/obj/x86/Debug/HT.exe
+/home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/obj/x86/Debug/HT.pdb

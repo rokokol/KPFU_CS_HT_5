@@ -1,0 +1,3 @@
+/home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/Tymakov/bin/Release/Tymakov.exe
+/home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/Tymakov/obj/x86/Release/Tymakov.csproj.CoreCompileInputs.cache
+/home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/Tymakov/obj/x86/Release/Tymakov.exe
