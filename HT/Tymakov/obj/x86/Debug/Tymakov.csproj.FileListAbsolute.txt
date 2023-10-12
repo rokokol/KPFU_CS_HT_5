@@ -3,3 +3,10 @@
 /home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/Tymakov/obj/x86/Debug/Tymakov.csproj.CoreCompileInputs.cache
 /home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/Tymakov/obj/x86/Debug/Tymakov.exe
 /home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/Tymakov/obj/x86/Debug/Tymakov.pdb
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\Tymakov\bin\Debug\Tymakov.exe.config
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\Tymakov\bin\Debug\Tymakov.exe
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\Tymakov\bin\Debug\Tymakov.pdb
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\Tymakov\obj\x86\Debug\Tymakov.csproj.AssemblyReference.cache
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\Tymakov\obj\x86\Debug\Tymakov.csproj.CoreCompileInputs.cache
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\Tymakov\obj\x86\Debug\Tymakov.exe
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\Tymakov\obj\x86\Debug\Tymakov.pdb

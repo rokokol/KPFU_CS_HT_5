@@ -103,7 +103,8 @@ namespace Tymakov
         /// <param name="chars">Array ot the chars.</param>
         static int[] CountVowelsAndConsonantsViaList(List<char> chars)
         {
-            char[] vowels = { 'a', 'e', 'i', 'o', 'u', 'а', 'у', 'о', 'ы', 'э', 'я', 'ю', 'ё', 'и', 'е' };
+            char[] vowels = { 'a', 'e', 'i', 'o', 'u', 'а', 'у', 'о',
+                'ы', 'э', 'я', 'ю', 'ё', 'и', 'е' };
             int vowelsCount = 0;
             int consonantsCount = 0;
             foreach (char ch in chars)
@@ -292,10 +293,18 @@ namespace Tymakov
             void Lab1()
             {
                 Message("counts number of vovels and conconants if the file", 1);
-                string path = "../../data/letters.txt";
-                string chars = File.ReadAllText(path);
-                int[] counts = CountVowelsAndConsonants(chars.ToCharArray()); // only Russian and English
-                Console.WriteLine($"The count of vowels is: {counts[0]}, consonants: {counts[1]}");
+                Offer();
+                string path = Console.ReadLine();
+                if (File.Exists(path))
+                {
+                    string chars = File.ReadAllText(path);
+                    int[] counts = CountVowelsAndConsonants(chars.ToCharArray()); // only Russian and English
+                    Console.WriteLine($"The count of vowels is: {counts[0]}, consonants: {counts[1]}");
+                }
+                else
+                {
+                    Console.WriteLine("There is no such file...");
+                }
             }
 
             void Lab2()

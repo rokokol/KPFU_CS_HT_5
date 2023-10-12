@@ -4,3 +4,10 @@
 /home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/obj/x86/Debug/HT.csproj.CoreCompileInputs.cache
 /home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/obj/x86/Debug/HT.exe
 /home/rokoko/Projects/KPFU/KPFU_CS_HT_5/HT/obj/x86/Debug/HT.pdb
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\bin\Debug\HT.exe.config
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\bin\Debug\HT.exe
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\bin\Debug\HT.pdb
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\obj\x86\Debug\HT.csproj.AssemblyReference.cache
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\obj\x86\Debug\HT.csproj.CoreCompileInputs.cache
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\obj\x86\Debug\HT.exe
+C:\Users\Rokoko\source\repos\rokokol\KPFU_CS_HT_5\HT\obj\x86\Debug\HT.pdb
